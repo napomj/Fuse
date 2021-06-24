@@ -4,6 +4,17 @@ tags:
 ---
 
 # Options
+## Implementation Example of Defining Options
+```
+const options = {
+  keys: ['name', 'etc...'],
+  threshold: 0.6,
+  location: 0,
+  distance: 100
+}
+
+const fuse = new Fuse(<insert-data-here>, options)
+```
 
 ## Basic Options
 
